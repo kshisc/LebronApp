@@ -1,50 +1,39 @@
-# Welcome to your Expo app 👋
+# LeBron Alarm App 
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mobile application built with **Expo**, **React Native**, **Google Gemini**, and **Firebase**.
 
-## Get started
+https://github.com/user-attachments/assets/bfef665d-1233-410c-b39d-107d0d32160a
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Features
 
-2. Start the app
+- **Alarm System**  
+  Schedule alarms that play custom LeBron-themed audio and animations.
+  
+- **Friend Interaction (Firestore)**  
+  Send alarms to friends and challenge each other to wake up on time.
 
-   ```bash
-    npx expo start
-   ```
+- **Interactive Basketball Game**  
+  Swipe to shoot basketballs into the hoop as a wake-up challenge.
 
-In the output, you'll find options to open the app in a
+- **Physics-Based Animation**  
+  Smooth animated shooting arc calculated with velocity, gravity, and time.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **AI Chat (Gemini)**  
+  Simulate a conversation with LeBron James, Bronny James, or Luka Dončić.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## Technologies Used
 
-When you're ready, run:
+- **React Native** (Expo)
+- **Firebase Firestore** (Cloud database for cross-user interaction)
+- **Animated & PanResponder APIs** (Physics and gesture-based interactivity)
+- **Google Gemini**
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
